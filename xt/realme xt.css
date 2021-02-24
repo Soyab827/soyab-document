@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+}
+.logo img{
+    border: solid white;
+    border-radius: 80px;
+    width: 50px;
+}
+.navlist{
+    width: 50%;
+    display: flex;
+}
+.navlist li{
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.navlist li a{
+    color: white;
+    text-decoration: nones;
+}
+.navlist li a:hover{
+    color: green;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+   
+
+}
+#search{
+    border: 5px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    align-items: center;
+}
+.btn-sm{
+    border: 5px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../purpose.jpg');
+    background-blend-mode: darken;
+    size: covers;
+}
+.firsthalf{
+    color: white;
+    padding: 25px;
+}
+.textbig{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    color: white;
+}
+
+.secondhalf img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 300px;
+
+}
+.boxmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    height: 60%;
+    margin: auto;
+}
+.big{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+    
+
+}
+.small{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+.fourthhalf img{
+    width: 60%;
+}
+.soyabmain{
+    display: flex;
+}
+.hello1 img{
+    width: 56%;
+}
+.hello{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.hello1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.hellosoyab{
+    display: flex;
+
+}
+.sam img{
+    width: 55%;
+}
+.ram{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ramsir{
+    display: flex;
+    padding: 55px;
+}
+@media only screen and (max-width:730px){
+    .navlist{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxmain{
+        flex-direction: column;
+
+    }
+    .secondhalf {
+        text-align: center;
+    }
+
+}
